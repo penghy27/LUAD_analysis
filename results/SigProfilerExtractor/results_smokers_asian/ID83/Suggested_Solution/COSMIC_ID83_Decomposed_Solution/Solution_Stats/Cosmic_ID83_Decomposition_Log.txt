@@ -1,0 +1,33 @@
+############################ Signature Decomposition Details ################################
+
+
+Context Type: 83
+Genome Build: GRCh38
+The following signatures are excluded: 
+
+
+
+######################## Decomposing ID83A ########################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [2]
+L2 Error % 0.8
+Cosine Similarity 0.6
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [2, 7]
+L2 Error % 0.72
+Cosine Similarity 0.69
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 2 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [2, 7]
+L2 Error % 0.72
+Cosine Similarity 0.69
+
+#################### Final Composition #################################
+[2, 7]
+L2 Error % 0.72
+Cosine Similarity 0.69

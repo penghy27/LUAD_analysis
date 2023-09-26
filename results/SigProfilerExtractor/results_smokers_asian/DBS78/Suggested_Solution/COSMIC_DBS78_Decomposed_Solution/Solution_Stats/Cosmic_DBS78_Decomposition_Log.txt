@@ -1,0 +1,33 @@
+############################ Signature Decomposition Details ################################
+
+
+Context Type: 78
+Genome Build: GRCh38
+The following signatures are excluded: 
+
+
+
+######################## Decomposing DBS78A ########################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [1]
+L2 Error % 0.57
+Cosine Similarity 0.82
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [0, 1]
+L2 Error % 0.51
+Cosine Similarity 0.86
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 2 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition [0, 1]
+L2 Error % 0.51
+Cosine Similarity 0.86
+
+#################### Final Composition #################################
+[0, 1]
+L2 Error % 0.51
+Cosine Similarity 0.86

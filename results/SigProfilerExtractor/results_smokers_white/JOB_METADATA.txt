@@ -1,0 +1,178 @@
+THIS FILE CONTAINS THE METADATA ABOUT SYSTEM AND RUNTIME
+
+
+-------System Info-------
+Operating System Name: Darwin
+Nodename: Hsiao-Yus-Air
+Release: 22.4.0
+Version: Darwin Kernel Version 22.4.0: Mon Mar  6 21:00:41 PST 2023; root:xnu-8796.101.5~3/RELEASE_ARM64_T8103
+
+-------Python and Package Versions------- 
+Python Version: 3.11.0
+SigProfilerExtractor Version: 1.1.21
+SigProfilerPlotting Version: 1.3.14
+SigProfilerMatrixGenerator Version: 1.2.17
+SigProfilerAssignment Version: 0.0.30
+Pandas version: 1.5.3
+Numpy version: 1.25.0
+Scipy version: 1.10.1
+Scikit-learn version: 1.2.2
+
+--------------EXECUTION PARAMETERS--------------
+INPUT DATA
+	input_type: vcf
+	output: results
+	input_data: TCGA_vcf
+	reference_genome: GRCh38
+	context_types: SBS96,DBS78,ID83
+	exome: False
+NMF REPLICATES
+	minimum_signatures: 1
+	maximum_signatures: 10
+	NMF_replicates: 100
+NMF ENGINE
+	NMF_init: random
+	precision: single
+	matrix_normalization: gmm
+	resample: True
+	seeds: random
+	min_NMF_iterations: 10,000
+	max_NMF_iterations: 1,000,000
+	NMF_test_conv: 10,000
+	NMF_tolerance: 1e-15
+CLUSTERING
+	clustering_distance: cosine
+EXECUTION
+	cpu: 8; Maximum number of CPU is 8
+	gpu: False
+Solution Estimation
+	stability: 0.8
+	min_stability: 0.2
+	combined_stability: 1.0
+	allow_stability_drop: False
+COSMIC MATCH
+	opportunity_genome: GRCh38
+	cosmic_version: 3.3
+	nnls_add_penalty: 0.05
+	nnls_remove_penalty: 0.01
+	initial_remove_penalty: 0.05
+	export_probabilities: True
+	collapse_to_SBS96: True
+
+-------Analysis Progress------- 
+[2023-07-04 09:46:06] Analysis started: 
+
+##################################
+
+[2023-07-04 09:46:24] Analysis started for SBS96. Matrix size [96 rows x 133 columns]
+
+[2023-07-04 09:46:24] Normalization GMM with cutoff value set at 9600
+
+[2023-07-04 09:48:37] SBS96 de novo extraction completed for a total of 1 signatures! 
+Execution time:0:02:13
+
+[2023-07-04 09:51:15] SBS96 de novo extraction completed for a total of 2 signatures! 
+Execution time:0:02:37
+
+[2023-07-04 09:54:24] SBS96 de novo extraction completed for a total of 3 signatures! 
+Execution time:0:03:09
+
+[2023-07-04 09:58:22] SBS96 de novo extraction completed for a total of 4 signatures! 
+Execution time:0:03:57
+
+[2023-07-04 10:04:30] SBS96 de novo extraction completed for a total of 5 signatures! 
+Execution time:0:06:07
+
+[2023-07-04 10:11:27] SBS96 de novo extraction completed for a total of 6 signatures! 
+Execution time:0:06:57
+
+[2023-07-04 10:20:55] SBS96 de novo extraction completed for a total of 7 signatures! 
+Execution time:0:09:27
+
+[2023-07-04 10:30:16] SBS96 de novo extraction completed for a total of 8 signatures! 
+Execution time:0:09:21
+
+[2023-07-04 10:41:13] SBS96 de novo extraction completed for a total of 9 signatures! 
+Execution time:0:10:57
+
+[2023-07-04 10:52:36] SBS96 de novo extraction completed for a total of 10 signatures! 
+Execution time:0:11:22
+
+##################################
+
+[2023-07-04 10:52:58] Analysis started for DBS78. Matrix size [78 rows x 114 columns]
+
+[2023-07-04 10:52:58] Normalization GMM with cutoff value set at 7800
+
+[2023-07-04 10:55:39] DBS78 de novo extraction completed for a total of 1 signatures! 
+Execution time:0:02:41
+
+[2023-07-04 10:59:30] DBS78 de novo extraction completed for a total of 2 signatures! 
+Execution time:0:03:50
+
+[2023-07-04 11:03:11] DBS78 de novo extraction completed for a total of 3 signatures! 
+Execution time:0:03:41
+
+[2023-07-04 11:06:41] DBS78 de novo extraction completed for a total of 4 signatures! 
+Execution time:0:03:29
+
+[2023-07-04 11:10:35] DBS78 de novo extraction completed for a total of 5 signatures! 
+Execution time:0:03:53
+
+[2023-07-04 11:14:21] DBS78 de novo extraction completed for a total of 6 signatures! 
+Execution time:0:03:46
+
+[2023-07-04 11:19:22] DBS78 de novo extraction completed for a total of 7 signatures! 
+Execution time:0:05:00
+
+[2023-07-04 11:23:24] DBS78 de novo extraction completed for a total of 8 signatures! 
+Execution time:0:04:02
+
+[2023-07-04 11:27:43] DBS78 de novo extraction completed for a total of 9 signatures! 
+Execution time:0:04:18
+
+[2023-07-04 11:32:36] DBS78 de novo extraction completed for a total of 10 signatures! 
+Execution time:0:04:52
+
+##################################
+
+[2023-07-04 11:32:44] Analysis started for ID83. Matrix size [83 rows x 133 columns]
+
+[2023-07-04 11:32:44] Normalization GMM with cutoff value set at 8300
+
+[2023-07-04 11:35:20] ID83 de novo extraction completed for a total of 1 signatures! 
+Execution time:0:02:36
+
+[2023-07-04 11:38:40] ID83 de novo extraction completed for a total of 2 signatures! 
+Execution time:0:03:19
+
+[2023-07-04 11:41:58] ID83 de novo extraction completed for a total of 3 signatures! 
+Execution time:0:03:18
+
+[2023-07-04 11:45:43] ID83 de novo extraction completed for a total of 4 signatures! 
+Execution time:0:03:45
+
+[2023-07-04 11:49:58] ID83 de novo extraction completed for a total of 5 signatures! 
+Execution time:0:04:14
+
+[2023-07-04 11:54:08] ID83 de novo extraction completed for a total of 6 signatures! 
+Execution time:0:04:10
+
+[2023-07-04 11:58:17] ID83 de novo extraction completed for a total of 7 signatures! 
+Execution time:0:04:08
+
+[2023-07-04 12:02:03] ID83 de novo extraction completed for a total of 8 signatures! 
+Execution time:0:03:46
+
+[2023-07-04 12:07:02] ID83 de novo extraction completed for a total of 9 signatures! 
+Execution time:0:04:58
+
+[2023-07-04 12:11:54] ID83 de novo extraction completed for a total of 10 signatures! 
+Execution time:0:04:51
+
+[2023-07-04 12:12:13] Analysis ended: 
+
+-------Job Status------- 
+Analysis of mutational signatures completed successfully! 
+Total execution time: 2:26:07 
+Results can be found in:  results  folder

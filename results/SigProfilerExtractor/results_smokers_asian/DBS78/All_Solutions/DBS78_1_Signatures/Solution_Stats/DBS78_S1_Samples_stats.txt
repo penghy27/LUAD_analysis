@@ -1,0 +1,3 @@
+Sample Names	Total Mutations	Cosine Similarity	L1 Norm	L1_Norm_%	L2 Norm	L2_Norm_%	KL Divergence	Correlation
+TCGA_55_1595_01A	4	0.861	2.187	54.675%	1.068	53.4%	0.26182	0.853
+TCGA_86_A456_01A	4	0.927	1.941	48.525%	0.945	38.579%	0.30793	0.925

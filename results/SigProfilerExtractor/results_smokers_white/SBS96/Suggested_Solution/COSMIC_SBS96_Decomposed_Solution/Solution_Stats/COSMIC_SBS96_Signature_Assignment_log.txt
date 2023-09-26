@@ -1,0 +1,4864 @@
+************************ Stepwise Description of Signature Assignment to Samples ************************
+
+
+
+
+                    ################ Sample 1 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  13.0  64.0  515.0  26.0   54.0
+L2 Error %: 0.32
+Cosine Similarity: 0.95
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4      SBS13
+0  68.777909  546.211515  57.010576
+L2 Error %: 0.33
+Cosine Similarity: 0.94
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 2 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   4.0   4.0  222.0  25.0   14.0
+L2 Error %: 0.43
+Cosine Similarity: 0.9
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  269.0
+L2 Error %: 0.47
+Cosine Similarity: 0.88
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.46
+Cosine Similarity 0.89
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.46
+Cosine Similarity 0.89
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.46
+Cosine Similarity 0.89
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   3.0  227.0  39.0
+L2 Error %: 0.46
+Cosine Similarity: 0.89
+
+
+
+
+
+                    ################ Sample 3 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   8.0   1.0   7.0  11.0    1.0
+L2 Error %: 0.75
+Cosine Similarity: 0.66
+############################## Composition After Initial Remove ###############################
+       SBS1       SBS5
+0  8.951956  19.048044
+L2 Error %: 0.78
+Cosine Similarity: 0.63
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS5']
+L2 Error % 0.78
+Cosine Similarity 0.63
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS5']
+L2 Error % 0.78
+Cosine Similarity 0.63
+
+#################### Final Composition #################################
+['SBS1', 'SBS5']
+L2 Error % 0.78
+Cosine Similarity 0.63
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS5
+0   9.0  19.0
+L2 Error %: 0.78
+Cosine Similarity: 0.63
+
+
+
+
+
+                    ################ Sample 4 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  12.0  10.0  686.0  125.0   16.0
+L2 Error %: 0.3
+Cosine Similarity: 0.95
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  849.0
+L2 Error %: 0.34
+Cosine Similarity: 0.94
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.31
+Cosine Similarity 0.95
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.31
+Cosine Similarity 0.95
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.31
+Cosine Similarity 0.95
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  12.0  689.0  148.0
+L2 Error %: 0.31
+Cosine Similarity: 0.95
+
+
+
+
+
+                    ################ Sample 5 #################
+############################# Initial Composition ####################################
+   SBS2  SBS4  SBS5  SBS13
+0  10.0  32.0   7.0   15.0
+L2 Error %: 0.51
+Cosine Similarity: 0.86
+############################## Composition After Initial Remove ###############################
+        SBS2       SBS4      SBS13
+0  11.333022  36.460738  16.206241
+L2 Error %: 0.51
+Cosine Similarity: 0.86
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 6 #################
+############################# Initial Composition ####################################
+   SBS2   SBS4  SBS5  SBS13
+0   7.0  163.0   7.0    5.0
+L2 Error %: 0.41
+Cosine Similarity: 0.91
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  182.0
+L2 Error %: 0.44
+Cosine Similarity: 0.9
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS4', 'SBS5']
+L2 Error % 0.43
+Cosine Similarity 0.9
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS4', 'SBS5']
+L2 Error % 0.43
+Cosine Similarity 0.9
+
+#################### Final Composition #################################
+['SBS4', 'SBS5']
+L2 Error % 0.43
+Cosine Similarity 0.9
+####################################### Composition After Add-Remove #######################################
+    SBS4  SBS5
+0  162.0  20.0
+L2 Error %: 0.43
+Cosine Similarity: 0.9
+
+
+
+
+
+                    ################ Sample 7 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  24.0  19.0  357.0  46.0   19.0
+L2 Error %: 0.25
+Cosine Similarity: 0.97
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  465.0
+L2 Error %: 0.38
+Cosine Similarity: 0.92
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.32
+Cosine Similarity 0.95
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.32
+Cosine Similarity 0.95
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.32
+Cosine Similarity 0.95
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0  23.0  359.0  83.0
+L2 Error %: 0.32
+Cosine Similarity: 0.95
+
+
+
+
+
+                    ################ Sample 8 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  27.0  16.0  399.0  20.0    1.0
+L2 Error %: 0.3
+Cosine Similarity: 0.96
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  463.0
+L2 Error %: 0.37
+Cosine Similarity: 0.93
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.32
+Cosine Similarity 0.95
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.32
+Cosine Similarity 0.95
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.32
+Cosine Similarity 0.95
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0  26.0  395.0  42.0
+L2 Error %: 0.32
+Cosine Similarity: 0.95
+
+
+
+
+
+                    ################ Sample 9 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  22.0  44.0  60.0  54.0   39.0
+L2 Error %: 0.43
+Cosine Similarity: 0.9
+############################## Composition After Initial Remove ###############################
+        SBS1       SBS2      SBS4      SBS13
+0  29.336867  55.491657  85.84206  48.329416
+L2 Error %: 0.45
+Cosine Similarity: 0.89
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 10 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   7.0   5.0  140.0  84.0   18.0
+L2 Error %: 0.45
+Cosine Similarity: 0.89
+############################## Composition After Initial Remove ###############################
+         SBS4        SBS5
+0  144.948102  109.051898
+L2 Error %: 0.52
+Cosine Similarity: 0.86
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.51
+Cosine Similarity 0.86
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.51
+Cosine Similarity 0.86
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.51
+Cosine Similarity 0.86
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0   7.0  144.0  103.0
+L2 Error %: 0.51
+Cosine Similarity: 0.86
+
+
+
+
+
+                    ################ Sample 11 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  24.0  32.0  875.0  104.0   52.0
+L2 Error %: 0.28
+Cosine Similarity: 0.96
+############################## Composition After Initial Remove ###############################
+     SBS4
+0  1087.0
+L2 Error %: 0.36
+Cosine Similarity: 0.93
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.33
+Cosine Similarity 0.94
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.33
+Cosine Similarity 0.94
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.33
+Cosine Similarity 0.94
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  21.0  887.0  179.0
+L2 Error %: 0.33
+Cosine Similarity: 0.94
+
+
+
+
+
+                    ################ Sample 12 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   4.0  38.0  344.0  70.0   52.0
+L2 Error %: 0.32
+Cosine Similarity: 0.95
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4      SBS13
+0  45.941841  401.754331  60.303828
+L2 Error %: 0.34
+Cosine Similarity: 0.94
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 13 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  37.0  19.0  751.0  210.0   27.0
+L2 Error %: 0.3
+Cosine Similarity: 0.95
+############################## Composition After Initial Remove ###############################
+         SBS4        SBS5
+0  759.639023  284.360977
+L2 Error %: 0.33
+Cosine Similarity: 0.94
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.32
+Cosine Similarity 0.95
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.32
+Cosine Similarity 0.95
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.32
+Cosine Similarity 0.95
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  35.0  756.0  253.0
+L2 Error %: 0.32
+Cosine Similarity: 0.95
+
+
+
+
+
+                    ################ Sample 14 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  13.0   6.0  295.0  29.0    3.0
+L2 Error %: 0.44
+Cosine Similarity: 0.9
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  346.0
+L2 Error %: 0.46
+Cosine Similarity: 0.89
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.44
+Cosine Similarity 0.9
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.44
+Cosine Similarity 0.9
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.44
+Cosine Similarity 0.9
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0  13.0  295.0  38.0
+L2 Error %: 0.44
+Cosine Similarity: 0.9
+
+
+
+
+
+                    ################ Sample 15 #################
+############################# Initial Composition ####################################
+   SBS2   SBS4  SBS5  SBS13
+0   3.0  105.0  20.0    2.0
+L2 Error %: 0.54
+Cosine Similarity: 0.84
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  130.0
+L2 Error %: 0.56
+Cosine Similarity: 0.83
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS4', 'SBS5']
+L2 Error % 0.54
+Cosine Similarity 0.84
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS4', 'SBS5']
+L2 Error % 0.54
+Cosine Similarity 0.84
+
+#################### Final Composition #################################
+['SBS4', 'SBS5']
+L2 Error % 0.54
+Cosine Similarity 0.84
+####################################### Composition After Add-Remove #######################################
+    SBS4  SBS5
+0  105.0  25.0
+L2 Error %: 0.54
+Cosine Similarity: 0.84
+
+
+
+
+
+                    ################ Sample 16 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   5.0   2.0  266.0  52.0    1.0
+L2 Error %: 0.4
+Cosine Similarity: 0.91
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  326.0
+L2 Error %: 0.43
+Cosine Similarity: 0.91
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.41
+Cosine Similarity 0.91
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.41
+Cosine Similarity 0.91
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.41
+Cosine Similarity 0.91
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   5.0  266.0  55.0
+L2 Error %: 0.41
+Cosine Similarity: 0.91
+
+
+
+
+
+                    ################ Sample 17 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   5.0   4.0  19.0  41.0    3.0
+L2 Error %: 0.7
+Cosine Similarity: 0.71
+############################## Composition After Initial Remove ###############################
+   SBS5
+0  72.0
+L2 Error %: 0.79
+Cosine Similarity: 0.61
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS5']
+L2 Error % 0.78
+Cosine Similarity 0.63
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS5']
+L2 Error % 0.78
+Cosine Similarity 0.63
+
+#################### Final Composition #################################
+['SBS1', 'SBS5']
+L2 Error % 0.78
+Cosine Similarity 0.63
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS5
+0   4.0  68.0
+L2 Error %: 0.78
+Cosine Similarity: 0.63
+
+
+
+
+
+                    ################ Sample 18 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   7.0   4.0  153.0  47.0    4.0
+L2 Error %: 0.5
+Cosine Similarity: 0.87
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  215.0
+L2 Error %: 0.55
+Cosine Similarity: 0.84
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.5
+Cosine Similarity 0.86
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.5
+Cosine Similarity 0.86
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.5
+Cosine Similarity 0.86
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   7.0  153.0  55.0
+L2 Error %: 0.5
+Cosine Similarity: 0.86
+
+
+
+
+
+                    ################ Sample 19 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  21.0   4.0  51.0  30.0    1.0
+L2 Error %: 0.59
+Cosine Similarity: 0.81
+############################## Composition After Initial Remove ###############################
+        SBS1       SBS4
+0  29.175522  77.824478
+L2 Error %: 0.64
+Cosine Similarity: 0.77
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.61
+Cosine Similarity 0.79
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.61
+Cosine Similarity 0.79
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.61
+Cosine Similarity 0.79
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0  21.0  50.0  36.0
+L2 Error %: 0.61
+Cosine Similarity: 0.79
+
+
+
+
+
+                    ################ Sample 20 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  10.0  21.0  158.0  71.0   29.0
+L2 Error %: 0.44
+Cosine Similarity: 0.9
+############################## Composition After Initial Remove ###############################
+       SBS2        SBS4      SBS13
+0  31.03897  218.776186  39.184844
+L2 Error %: 0.49
+Cosine Similarity: 0.87
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 21 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  37.0  14.0  365.0  114.0    9.0
+L2 Error %: 0.43
+Cosine Similarity: 0.9
+############################## Composition After Initial Remove ###############################
+        SBS1        SBS4
+0  52.413053  486.586947
+L2 Error %: 0.48
+Cosine Similarity: 0.88
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.44
+Cosine Similarity 0.9
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.44
+Cosine Similarity 0.9
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.44
+Cosine Similarity 0.9
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  36.0  365.0  138.0
+L2 Error %: 0.44
+Cosine Similarity: 0.9
+
+
+
+
+
+                    ################ Sample 22 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  29.0  66.0  922.0  125.0   89.0
+L2 Error %: 0.24
+Cosine Similarity: 0.97
+############################## Composition After Initial Remove ###############################
+        SBS2         SBS4       SBS13
+0  79.387445  1049.414755  102.197799
+L2 Error %: 0.27
+Cosine Similarity: 0.96
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 23 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   5.0   4.0  132.0  45.0    2.0
+L2 Error %: 0.5
+Cosine Similarity: 0.87
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  188.0
+L2 Error %: 0.55
+Cosine Similarity: 0.84
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.5
+Cosine Similarity 0.86
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.5
+Cosine Similarity 0.86
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.5
+Cosine Similarity 0.86
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   5.0  132.0  51.0
+L2 Error %: 0.5
+Cosine Similarity: 0.86
+
+
+
+
+
+                    ################ Sample 24 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  31.0  14.0  701.0  106.0   15.0
+L2 Error %: 0.21
+Cosine Similarity: 0.98
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  867.0
+L2 Error %: 0.28
+Cosine Similarity: 0.96
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.22
+Cosine Similarity 0.98
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.22
+Cosine Similarity 0.98
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.22
+Cosine Similarity 0.98
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  30.0  704.0  133.0
+L2 Error %: 0.22
+Cosine Similarity: 0.98
+
+
+
+
+
+                    ################ Sample 25 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   6.0   5.0  18.0  45.0   10.0
+L2 Error %: 0.63
+Cosine Similarity: 0.77
+############################## Composition After Initial Remove ###############################
+        SBS5      SBS13
+0  73.215616  10.784384
+L2 Error %: 0.72
+Cosine Similarity: 0.7
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.67
+Cosine Similarity 0.75
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.67
+Cosine Similarity 0.75
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.67
+Cosine Similarity 0.75
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2  SBS5  SBS13
+0   6.0   6.0  61.0   11.0
+L2 Error %: 0.67
+Cosine Similarity: 0.75
+
+
+
+
+
+                    ################ Sample 26 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   6.0   2.0  88.0  74.0    1.0
+L2 Error %: 0.51
+Cosine Similarity: 0.86
+############################## Composition After Initial Remove ###############################
+        SBS4       SBS5
+0  88.057441  82.942559
+L2 Error %: 0.52
+Cosine Similarity: 0.85
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.51
+Cosine Similarity 0.86
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.51
+Cosine Similarity 0.86
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.51
+Cosine Similarity 0.86
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0   6.0  88.0  77.0
+L2 Error %: 0.51
+Cosine Similarity: 0.86
+
+
+
+
+
+                    ################ Sample 27 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   8.0  18.0  238.0  92.0   32.0
+L2 Error %: 0.39
+Cosine Similarity: 0.92
+############################## Composition After Initial Remove ###############################
+         SBS4        SBS5      SBS13
+0  232.368439  123.814973  31.816588
+L2 Error %: 0.43
+Cosine Similarity: 0.9
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.39
+Cosine Similarity 0.92
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % inf
+Cosine Similarity 0.92
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.39
+Cosine Similarity 0.92
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   8.0  18.0  238.0  92.0   32.0
+L2 Error %: 0.39
+Cosine Similarity: 0.92
+
+
+
+
+
+                    ################ Sample 28 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   6.0  17.0  253.0  32.0    8.0
+L2 Error %: 0.29
+Cosine Similarity: 0.96
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4
+0  21.319008  294.680992
+L2 Error %: 0.31
+Cosine Similarity: 0.95
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.29
+Cosine Similarity 0.96
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % inf
+Cosine Similarity 0.96
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.29
+Cosine Similarity 0.96
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   6.0  17.0  253.0  32.0    8.0
+L2 Error %: 0.29
+Cosine Similarity: 0.96
+
+
+
+
+
+                    ################ Sample 29 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS5  SBS13
+0   9.0   5.0  33.0    7.0
+L2 Error %: 0.57
+Cosine Similarity: 0.82
+############################## Composition After Initial Remove ###############################
+   SBS1  SBS2  SBS5  SBS13
+0   9.0   5.0  33.0    7.0
+L2 Error %: 0.57
+Cosine Similarity: 0.82
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.57
+Cosine Similarity 0.82
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.57
+Cosine Similarity 0.82
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.57
+Cosine Similarity 0.82
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2  SBS5  SBS13
+0   9.0   5.0  33.0    7.0
+L2 Error %: 0.57
+Cosine Similarity: 0.82
+
+
+
+
+
+                    ################ Sample 30 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  24.0  11.0  148.0  51.0   11.0
+L2 Error %: 0.42
+Cosine Similarity: 0.91
+############################## Composition After Initial Remove ###############################
+       SBS1       SBS4
+0  34.48691  210.51309
+L2 Error %: 0.52
+Cosine Similarity: 0.85
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.47
+Cosine Similarity 0.88
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.47
+Cosine Similarity 0.88
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.47
+Cosine Similarity 0.88
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0  24.0  148.0  73.0
+L2 Error %: 0.47
+Cosine Similarity: 0.88
+
+
+
+
+
+                    ################ Sample 31 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5
+0   6.0   3.0  63.0  49.0
+L2 Error %: 0.62
+Cosine Similarity: 0.79
+############################## Composition After Initial Remove ###############################
+        SBS4       SBS5
+0  61.245486  59.754514
+L2 Error %: 0.64
+Cosine Similarity: 0.77
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.62
+Cosine Similarity 0.78
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.62
+Cosine Similarity 0.78
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.62
+Cosine Similarity 0.78
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0   6.0  61.0  54.0
+L2 Error %: 0.62
+Cosine Similarity: 0.78
+
+
+
+
+
+                    ################ Sample 32 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  20.0  27.0  109.0  54.0   20.0
+L2 Error %: 0.48
+Cosine Similarity: 0.88
+############################## Composition After Initial Remove ###############################
+        SBS1      SBS2        SBS4      SBS13
+0  26.935727  34.19301  143.105946  25.765318
+L2 Error %: 0.5
+Cosine Similarity: 0.86
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 33 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   4.0   1.0  179.0  49.0    7.0
+L2 Error %: 0.44
+Cosine Similarity: 0.9
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  240.0
+L2 Error %: 0.48
+Cosine Similarity: 0.88
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.45
+Cosine Similarity 0.89
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.45
+Cosine Similarity 0.89
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.45
+Cosine Similarity 0.89
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   4.0  182.0  54.0
+L2 Error %: 0.45
+Cosine Similarity: 0.89
+
+
+
+
+
+                    ################ Sample 34 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  14.0  44.0  77.0  44.0   26.0
+L2 Error %: 0.35
+Cosine Similarity: 0.94
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4     SBS13
+0  58.947564  111.711076  34.34136
+L2 Error %: 0.41
+Cosine Similarity: 0.91
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 35 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  18.0  15.0  376.0  107.0   20.0
+L2 Error %: 0.35
+Cosine Similarity: 0.93
+############################## Composition After Initial Remove ###############################
+        SBS4       SBS5
+0  380.55916  155.44084
+L2 Error %: 0.4
+Cosine Similarity: 0.92
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.39
+Cosine Similarity 0.92
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.39
+Cosine Similarity 0.92
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.39
+Cosine Similarity 0.92
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  17.0  379.0  140.0
+L2 Error %: 0.39
+Cosine Similarity: 0.92
+
+
+
+
+
+                    ################ Sample 36 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   8.0   3.0  81.0  24.0    4.0
+L2 Error %: 0.56
+Cosine Similarity: 0.83
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  120.0
+L2 Error %: 0.63
+Cosine Similarity: 0.78
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.57
+Cosine Similarity 0.82
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.57
+Cosine Similarity 0.82
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.57
+Cosine Similarity 0.82
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0   8.0  82.0  30.0
+L2 Error %: 0.57
+Cosine Similarity: 0.82
+
+
+
+
+
+                    ################ Sample 37 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   9.0   4.0  292.0  93.0   22.0
+L2 Error %: 0.33
+Cosine Similarity: 0.95
+############################## Composition After Initial Remove ###############################
+         SBS4        SBS5
+0  300.227591  119.772409
+L2 Error %: 0.37
+Cosine Similarity: 0.93
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0   9.0  299.0  112.0
+L2 Error %: 0.36
+Cosine Similarity: 0.93
+
+
+
+
+
+                    ################ Sample 38 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   3.0   1.0  30.0  30.0    1.0
+L2 Error %: 0.64
+Cosine Similarity: 0.77
+############################## Composition After Initial Remove ###############################
+       SBS4      SBS5
+0  29.94736  35.05264
+L2 Error %: 0.65
+Cosine Similarity: 0.76
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.64
+Cosine Similarity 0.77
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.64
+Cosine Similarity 0.77
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.64
+Cosine Similarity 0.77
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0   3.0  30.0  32.0
+L2 Error %: 0.64
+Cosine Similarity: 0.77
+
+
+
+
+
+                    ################ Sample 39 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0   9.0  74.0  608.0  193.0   97.0
+L2 Error %: 0.25
+Cosine Similarity: 0.97
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4       SBS13
+0  97.472018  763.357333  120.170649
+L2 Error %: 0.29
+Cosine Similarity: 0.96
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 40 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  11.0  25.0  131.0  129.0   29.0
+L2 Error %: 0.43
+Cosine Similarity: 0.9
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4        SBS5     SBS13
+0  24.576946  131.728738  139.889986  28.80433
+L2 Error %: 0.45
+Cosine Similarity: 0.89
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 41 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  10.0   4.0  231.0  98.0    5.0
+L2 Error %: 0.41
+Cosine Similarity: 0.91
+############################## Composition After Initial Remove ###############################
+         SBS4        SBS5
+0  232.422215  115.577785
+L2 Error %: 0.42
+Cosine Similarity: 0.91
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.42
+Cosine Similarity 0.91
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.42
+Cosine Similarity 0.91
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.42
+Cosine Similarity 0.91
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0   9.0  232.0  107.0
+L2 Error %: 0.42
+Cosine Similarity: 0.91
+
+
+
+
+
+                    ################ Sample 42 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   5.0  15.0  23.0  43.0    7.0
+L2 Error %: 0.58
+Cosine Similarity: 0.82
+############################## Composition After Initial Remove ###############################
+        SBS2       SBS5
+0  16.853907  76.146093
+L2 Error %: 0.66
+Cosine Similarity: 0.75
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.62
+Cosine Similarity 0.79
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.62
+Cosine Similarity 0.79
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.62
+Cosine Similarity 0.79
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2  SBS5  SBS13
+0   5.0  16.0  63.0    9.0
+L2 Error %: 0.62
+Cosine Similarity: 0.79
+
+
+
+
+
+                    ################ Sample 43 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  22.0  70.0  527.0  207.0   77.0
+L2 Error %: 0.29
+Cosine Similarity: 0.96
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4        SBS5      SBS13
+0  70.192701  527.031745  228.108983  77.666571
+L2 Error %: 0.3
+Cosine Similarity: 0.95
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 44 #################
+############################# Initial Composition ####################################
+   SBS1   SBS4  SBS5
+0  12.0  114.0  51.0
+L2 Error %: 0.52
+Cosine Similarity: 0.85
+############################## Composition After Initial Remove ###############################
+         SBS4       SBS5
+0  115.242496  61.757504
+L2 Error %: 0.56
+Cosine Similarity: 0.83
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.52
+Cosine Similarity 0.85
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.52
+Cosine Similarity 0.85
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.52
+Cosine Similarity 0.85
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0  12.0  114.0  51.0
+L2 Error %: 0.52
+Cosine Similarity: 0.85
+
+
+
+
+
+                    ################ Sample 45 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5
+0  10.0   1.0   1.0   9.0
+L2 Error %: 0.7
+Cosine Similarity: 0.71
+############################## Composition After Initial Remove ###############################
+   SBS1
+0  21.0
+L2 Error %: 0.73
+Cosine Similarity: 0.68
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS5']
+L2 Error % 0.71
+Cosine Similarity 0.71
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS5']
+L2 Error % 0.71
+Cosine Similarity 0.71
+
+#################### Final Composition #################################
+['SBS1', 'SBS5']
+L2 Error % 0.71
+Cosine Similarity 0.71
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS5
+0  10.0  11.0
+L2 Error %: 0.71
+Cosine Similarity: 0.71
+
+
+
+
+
+                    ################ Sample 46 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   7.0   7.0  116.0  51.0    7.0
+L2 Error %: 0.46
+Cosine Similarity: 0.89
+############################## Composition After Initial Remove ###############################
+        SBS4      SBS5
+0  117.15559  70.84441
+L2 Error %: 0.5
+Cosine Similarity: 0.86
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.49
+Cosine Similarity 0.87
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.49
+Cosine Similarity 0.87
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.49
+Cosine Similarity 0.87
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   7.0  116.0  65.0
+L2 Error %: 0.49
+Cosine Similarity: 0.87
+
+
+
+
+
+                    ################ Sample 47 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5
+0   1.0   5.0  42.0  44.0
+L2 Error %: 0.65
+Cosine Similarity: 0.76
+############################## Composition After Initial Remove ###############################
+        SBS4       SBS5
+0  40.723736  51.276264
+L2 Error %: 0.68
+Cosine Similarity: 0.74
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.68
+Cosine Similarity 0.74
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.68
+Cosine Similarity 0.74
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.68
+Cosine Similarity 0.74
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0   1.0  41.0  50.0
+L2 Error %: 0.68
+Cosine Similarity: 0.74
+
+
+
+
+
+                    ################ Sample 48 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   5.0  10.0  57.0  27.0   26.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
+############################## Composition After Initial Remove ###############################
+        SBS2       SBS4      SBS13
+0  14.200649  77.891314  32.908037
+L2 Error %: 0.56
+Cosine Similarity: 0.83
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 49 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  14.0   1.0   3.0  32.0    5.0
+L2 Error %: 0.65
+Cosine Similarity: 0.76
+############################## Composition After Initial Remove ###############################
+       SBS1      SBS5
+0  14.59785  40.40215
+L2 Error %: 0.68
+Cosine Similarity: 0.73
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS5']
+L2 Error % 0.68
+Cosine Similarity 0.73
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS5']
+L2 Error % 0.68
+Cosine Similarity 0.73
+
+#################### Final Composition #################################
+['SBS1', 'SBS5']
+L2 Error % 0.68
+Cosine Similarity 0.73
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS5
+0  15.0  40.0
+L2 Error %: 0.68
+Cosine Similarity: 0.73
+
+
+
+
+
+                    ################ Sample 50 #################
+############################# Initial Composition ####################################
+   SBS1   SBS4   SBS5  SBS13
+0  11.0  379.0  112.0    7.0
+L2 Error %: 0.29
+Cosine Similarity: 0.96
+############################## Composition After Initial Remove ###############################
+         SBS4        SBS5
+0  381.937186  127.062814
+L2 Error %: 0.3
+Cosine Similarity: 0.95
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.3
+Cosine Similarity 0.96
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.3
+Cosine Similarity 0.96
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.3
+Cosine Similarity 0.96
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  11.0  381.0  117.0
+L2 Error %: 0.3
+Cosine Similarity: 0.96
+
+
+
+
+
+                    ################ Sample 51 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  14.0  19.0  329.0  119.0   16.0
+L2 Error %: 0.43
+Cosine Similarity: 0.9
+############################## Composition After Initial Remove ###############################
+         SBS4        SBS5
+0  330.448739  166.551261
+L2 Error %: 0.47
+Cosine Similarity: 0.88
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.46
+Cosine Similarity 0.89
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.46
+Cosine Similarity 0.89
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.46
+Cosine Similarity 0.89
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  13.0  329.0  155.0
+L2 Error %: 0.46
+Cosine Similarity: 0.89
+
+
+
+
+
+                    ################ Sample 52 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   1.0   4.0  24.0  26.0    2.0
+L2 Error %: 0.68
+Cosine Similarity: 0.73
+############################## Composition After Initial Remove ###############################
+        SBS4       SBS5
+0  23.817299  33.182701
+L2 Error %: 0.72
+Cosine Similarity: 0.69
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.72
+Cosine Similarity 0.69
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.72
+Cosine Similarity 0.69
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.72
+Cosine Similarity 0.69
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0   1.0  24.0  32.0
+L2 Error %: 0.72
+Cosine Similarity: 0.69
+
+
+
+
+
+                    ################ Sample 53 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   6.0  49.0  91.0  73.0   65.0
+L2 Error %: 0.39
+Cosine Similarity: 0.92
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4      SBS13
+0  64.595777  136.183009  83.221214
+L2 Error %: 0.43
+Cosine Similarity: 0.9
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 54 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   9.0   3.0  108.0  36.0    1.0
+L2 Error %: 0.54
+Cosine Similarity: 0.84
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  157.0
+L2 Error %: 0.6
+Cosine Similarity: 0.8
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.55
+Cosine Similarity 0.84
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.55
+Cosine Similarity 0.84
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.55
+Cosine Similarity 0.84
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   8.0  109.0  40.0
+L2 Error %: 0.55
+Cosine Similarity: 0.84
+
+
+
+
+
+                    ################ Sample 55 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  16.0  26.0  12.0  23.0   45.0
+L2 Error %: 0.37
+Cosine Similarity: 0.93
+############################## Composition After Initial Remove ###############################
+        SBS1       SBS2      SBS13
+0  22.957819  36.000292  63.041889
+L2 Error %: 0.39
+Cosine Similarity: 0.92
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.37
+Cosine Similarity 0.93
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.37
+Cosine Similarity 0.93
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.37
+Cosine Similarity 0.93
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2  SBS5  SBS13
+0  16.0  27.0  31.0   48.0
+L2 Error %: 0.37
+Cosine Similarity: 0.93
+
+
+
+
+
+                    ################ Sample 56 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   7.0   2.0  85.0  13.0    1.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  108.0
+L2 Error %: 0.58
+Cosine Similarity: 0.81
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.54
+Cosine Similarity 0.84
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.54
+Cosine Similarity 0.84
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.54
+Cosine Similarity 0.84
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0   7.0  85.0  16.0
+L2 Error %: 0.54
+Cosine Similarity: 0.84
+
+
+
+
+
+                    ################ Sample 57 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  10.0   7.0  160.0  69.0   15.0
+L2 Error %: 0.47
+Cosine Similarity: 0.88
+############################## Composition After Initial Remove ###############################
+         SBS4       SBS5
+0  164.789323  96.210677
+L2 Error %: 0.52
+Cosine Similarity: 0.85
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.51
+Cosine Similarity 0.86
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.51
+Cosine Similarity 0.86
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.51
+Cosine Similarity 0.86
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   9.0  164.0  88.0
+L2 Error %: 0.51
+Cosine Similarity: 0.86
+
+
+
+
+
+                    ################ Sample 58 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  22.0   8.0  94.0  66.0   14.0
+L2 Error %: 0.55
+Cosine Similarity: 0.83
+############################## Composition After Initial Remove ###############################
+        SBS1       SBS4       SBS5
+0  22.029427  95.147022  86.823551
+L2 Error %: 0.61
+Cosine Similarity: 0.79
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.61
+Cosine Similarity 0.79
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.61
+Cosine Similarity 0.79
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.61
+Cosine Similarity 0.79
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0  22.0  95.0  87.0
+L2 Error %: 0.61
+Cosine Similarity: 0.79
+
+
+
+
+
+                    ################ Sample 59 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0   9.0  51.0  469.0  185.0   40.0
+L2 Error %: 0.33
+Cosine Similarity: 0.94
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4        SBS5
+0  50.757256  484.136922  219.105822
+L2 Error %: 0.37
+Cosine Similarity: 0.93
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.33
+Cosine Similarity 0.94
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % inf
+Cosine Similarity 0.94
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.33
+Cosine Similarity 0.94
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0   9.0  51.0  469.0  185.0   40.0
+L2 Error %: 0.33
+Cosine Similarity: 0.94
+
+
+
+
+
+                    ################ Sample 60 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  15.0   4.0  108.0  34.0    6.0
+L2 Error %: 0.46
+Cosine Similarity: 0.89
+############################## Composition After Initial Remove ###############################
+        SBS1        SBS4
+0  20.351374  146.648626
+L2 Error %: 0.51
+Cosine Similarity: 0.86
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.48
+Cosine Similarity 0.88
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.48
+Cosine Similarity 0.88
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.48
+Cosine Similarity 0.88
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0  15.0  110.0  42.0
+L2 Error %: 0.48
+Cosine Similarity: 0.88
+
+
+
+
+
+                    ################ Sample 61 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  23.0   5.0  47.0  43.0    4.0
+L2 Error %: 0.55
+Cosine Similarity: 0.84
+############################## Composition After Initial Remove ###############################
+        SBS1       SBS4       SBS5
+0  23.266312  46.690045  52.043643
+L2 Error %: 0.57
+Cosine Similarity: 0.82
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.57
+Cosine Similarity 0.82
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.57
+Cosine Similarity 0.82
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.57
+Cosine Similarity 0.82
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0  23.0  47.0  52.0
+L2 Error %: 0.57
+Cosine Similarity: 0.82
+
+
+
+
+
+                    ################ Sample 62 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  33.0   2.0  379.0  65.0    1.0
+L2 Error %: 0.35
+Cosine Similarity: 0.94
+############################## Composition After Initial Remove ###############################
+        SBS1        SBS4
+0  40.565467  439.434533
+L2 Error %: 0.37
+Cosine Similarity: 0.93
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.35
+Cosine Similarity 0.94
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.35
+Cosine Similarity 0.94
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.35
+Cosine Similarity 0.94
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0  33.0  378.0  69.0
+L2 Error %: 0.35
+Cosine Similarity: 0.94
+
+
+
+
+
+                    ################ Sample 63 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4   SBS5  SBS13
+0  10.0  69.0  82.0  130.0   96.0
+L2 Error %: 0.24
+Cosine Similarity: 0.97
+############################## Composition After Initial Remove ###############################
+        SBS2       SBS4        SBS5      SBS13
+0  69.683025  80.787122  139.479249  97.050604
+L2 Error %: 0.25
+Cosine Similarity: 0.97
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 64 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   4.0   6.0  145.0  78.0    2.0
+L2 Error %: 0.4
+Cosine Similarity: 0.92
+############################## Composition After Initial Remove ###############################
+         SBS4       SBS5
+0  144.427005  90.572995
+L2 Error %: 0.41
+Cosine Similarity: 0.91
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.41
+Cosine Similarity 0.91
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.41
+Cosine Similarity 0.91
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.41
+Cosine Similarity 0.91
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   4.0  144.0  87.0
+L2 Error %: 0.41
+Cosine Similarity: 0.91
+
+
+
+
+
+                    ################ Sample 65 #################
+############################# Initial Composition ####################################
+    SBS1  SBS2    SBS4   SBS5
+0  353.0  10.0  1107.0  427.0
+L2 Error %: 0.3
+Cosine Similarity: 0.95
+############################## Composition After Initial Remove ###############################
+         SBS1         SBS4
+0  445.609211  1451.390789
+L2 Error %: 0.35
+Cosine Similarity: 0.94
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.3
+Cosine Similarity 0.95
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.3
+Cosine Similarity 0.95
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.3
+Cosine Similarity 0.95
+####################################### Composition After Add-Remove #######################################
+    SBS1    SBS4   SBS5
+0  353.0  1103.0  441.0
+L2 Error %: 0.3
+Cosine Similarity: 0.95
+
+
+
+
+
+                    ################ Sample 66 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   9.0   9.0  263.0  59.0   19.0
+L2 Error %: 0.32
+Cosine Similarity: 0.95
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  359.0
+L2 Error %: 0.42
+Cosine Similarity: 0.91
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.37
+Cosine Similarity 0.93
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.37
+Cosine Similarity 0.93
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.37
+Cosine Similarity 0.93
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   8.0  268.0  83.0
+L2 Error %: 0.37
+Cosine Similarity: 0.93
+
+
+
+
+
+                    ################ Sample 67 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  26.0  41.0  432.0  118.0   24.0
+L2 Error %: 0.28
+Cosine Similarity: 0.96
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4
+0  58.930448  582.069552
+L2 Error %: 0.37
+Cosine Similarity: 0.93
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.28
+Cosine Similarity 0.96
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % inf
+Cosine Similarity 0.96
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.28
+Cosine Similarity 0.96
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  26.0  41.0  432.0  118.0   24.0
+L2 Error %: 0.28
+Cosine Similarity: 0.96
+
+
+
+
+
+                    ################ Sample 68 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  24.0   9.0  493.0  86.0   16.0
+L2 Error %: 0.3
+Cosine Similarity: 0.95
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  628.0
+L2 Error %: 0.36
+Cosine Similarity: 0.93
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.31
+Cosine Similarity 0.95
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.31
+Cosine Similarity 0.95
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.31
+Cosine Similarity 0.95
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  23.0  497.0  108.0
+L2 Error %: 0.31
+Cosine Similarity: 0.95
+
+
+
+
+
+                    ################ Sample 69 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   7.0  11.0  358.0  65.0   17.0
+L2 Error %: 0.33
+Cosine Similarity: 0.94
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  458.0
+L2 Error %: 0.39
+Cosine Similarity: 0.92
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   6.0  362.0  90.0
+L2 Error %: 0.36
+Cosine Similarity: 0.93
+
+
+
+
+
+                    ################ Sample 70 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   8.0   2.0  17.0  36.0    1.0
+L2 Error %: 0.72
+Cosine Similarity: 0.69
+############################## Composition After Initial Remove ###############################
+       SBS1       SBS5
+0  8.700566  55.299434
+L2 Error %: 0.77
+Cosine Similarity: 0.64
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS5']
+L2 Error % 0.77
+Cosine Similarity 0.64
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS5']
+L2 Error % 0.77
+Cosine Similarity 0.64
+
+#################### Final Composition #################################
+['SBS1', 'SBS5']
+L2 Error % 0.77
+Cosine Similarity 0.64
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS5
+0   9.0  55.0
+L2 Error %: 0.77
+Cosine Similarity: 0.64
+
+
+
+
+
+                    ################ Sample 71 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  14.0  11.0  230.0  73.0    4.0
+L2 Error %: 0.41
+Cosine Similarity: 0.91
+############################## Composition After Initial Remove ###############################
+         SBS4        SBS5
+0  229.574208  102.425792
+L2 Error %: 0.44
+Cosine Similarity: 0.9
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.43
+Cosine Similarity 0.9
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.43
+Cosine Similarity 0.9
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.43
+Cosine Similarity 0.9
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0  14.0  228.0  90.0
+L2 Error %: 0.43
+Cosine Similarity: 0.9
+
+
+
+
+
+                    ################ Sample 72 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  12.0  46.0  187.0  74.0   27.0
+L2 Error %: 0.36
+Cosine Similarity: 0.93
+############################## Composition After Initial Remove ###############################
+        SBS2       SBS4      SBS13
+0  59.968483  250.22074  35.810776
+L2 Error %: 0.41
+Cosine Similarity: 0.91
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 73 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  32.0   3.0  190.0  41.0    6.0
+L2 Error %: 0.42
+Cosine Similarity: 0.91
+############################## Composition After Initial Remove ###############################
+        SBS1        SBS4
+0  39.716679  232.283321
+L2 Error %: 0.45
+Cosine Similarity: 0.9
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.43
+Cosine Similarity 0.9
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.43
+Cosine Similarity 0.9
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.43
+Cosine Similarity 0.9
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0  32.0  191.0  49.0
+L2 Error %: 0.43
+Cosine Similarity: 0.9
+
+
+
+
+
+                    ################ Sample 74 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  30.0  74.0  667.0  194.0   74.0
+L2 Error %: 0.26
+Cosine Similarity: 0.97
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4      SBS13
+0  98.403806  846.529678  94.066516
+L2 Error %: 0.31
+Cosine Similarity: 0.95
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 75 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  20.0  22.0  89.0  52.0    6.0
+L2 Error %: 0.48
+Cosine Similarity: 0.88
+############################## Composition After Initial Remove ###############################
+        SBS1       SBS2        SBS4
+0  28.867374  30.555304  129.577322
+L2 Error %: 0.53
+Cosine Similarity: 0.85
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5']
+L2 Error % 0.49
+Cosine Similarity 0.87
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5']
+L2 Error % 0.49
+Cosine Similarity 0.87
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS4', 'SBS5']
+L2 Error % 0.49
+Cosine Similarity 0.87
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2  SBS4  SBS5
+0  21.0  22.0  89.0  57.0
+L2 Error %: 0.49
+Cosine Similarity: 0.87
+
+
+
+
+
+                    ################ Sample 76 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  15.0  20.0  443.0  66.0   22.0
+L2 Error %: 0.34
+Cosine Similarity: 0.94
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  566.0
+L2 Error %: 0.41
+Cosine Similarity: 0.91
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.38
+Cosine Similarity 0.93
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.38
+Cosine Similarity 0.93
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.38
+Cosine Similarity 0.93
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  14.0  445.0  107.0
+L2 Error %: 0.38
+Cosine Similarity: 0.93
+
+
+
+
+
+                    ################ Sample 77 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   6.0   9.0  14.0  42.0   13.0
+L2 Error %: 0.63
+Cosine Similarity: 0.78
+############################## Composition After Initial Remove ###############################
+       SBS2       SBS5      SBS13
+0  9.630984  59.583188  14.785829
+L2 Error %: 0.67
+Cosine Similarity: 0.75
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.65
+Cosine Similarity 0.76
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.65
+Cosine Similarity 0.76
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.65
+Cosine Similarity 0.76
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2  SBS5  SBS13
+0   6.0  10.0  53.0   15.0
+L2 Error %: 0.65
+Cosine Similarity: 0.76
+
+
+
+
+
+                    ################ Sample 78 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  33.0  84.0  869.0  199.0   48.0
+L2 Error %: 0.34
+Cosine Similarity: 0.94
+############################## Composition After Initial Remove ###############################
+         SBS2         SBS4
+0  113.951962  1119.048038
+L2 Error %: 0.39
+Cosine Similarity: 0.92
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.34
+Cosine Similarity 0.94
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % inf
+Cosine Similarity 0.94
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.34
+Cosine Similarity 0.94
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  33.0  84.0  869.0  199.0   48.0
+L2 Error %: 0.34
+Cosine Similarity: 0.94
+
+
+
+
+
+                    ################ Sample 79 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5
+0  12.0   4.0  161.0  64.0
+L2 Error %: 0.47
+Cosine Similarity: 0.89
+############################## Composition After Initial Remove ###############################
+         SBS4       SBS5
+0  161.251905  79.748095
+L2 Error %: 0.49
+Cosine Similarity: 0.87
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.47
+Cosine Similarity 0.88
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.47
+Cosine Similarity 0.88
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.47
+Cosine Similarity 0.88
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0  11.0  161.0  69.0
+L2 Error %: 0.47
+Cosine Similarity: 0.88
+
+
+
+
+
+                    ################ Sample 80 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   4.0   3.0  60.0  54.0    1.0
+L2 Error %: 0.59
+Cosine Similarity: 0.8
+############################## Composition After Initial Remove ###############################
+        SBS4       SBS5
+0  59.528785  62.471215
+L2 Error %: 0.61
+Cosine Similarity: 0.79
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.6
+Cosine Similarity 0.8
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.6
+Cosine Similarity 0.8
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.6
+Cosine Similarity 0.8
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0   3.0  60.0  59.0
+L2 Error %: 0.6
+Cosine Similarity: 0.8
+
+
+
+
+
+                    ################ Sample 81 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   9.0   3.0  148.0  48.0    4.0
+L2 Error %: 0.44
+Cosine Similarity: 0.9
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  212.0
+L2 Error %: 0.51
+Cosine Similarity: 0.86
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.44
+Cosine Similarity 0.9
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.44
+Cosine Similarity 0.9
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.44
+Cosine Similarity 0.9
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   9.0  148.0  55.0
+L2 Error %: 0.44
+Cosine Similarity: 0.9
+
+
+
+
+
+                    ################ Sample 82 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  16.0   8.0  220.0  33.0    1.0
+L2 Error %: 0.42
+Cosine Similarity: 0.91
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  278.0
+L2 Error %: 0.48
+Cosine Similarity: 0.88
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.43
+Cosine Similarity 0.9
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.43
+Cosine Similarity 0.9
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.43
+Cosine Similarity 0.9
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0  16.0  218.0  44.0
+L2 Error %: 0.43
+Cosine Similarity: 0.9
+
+
+
+
+
+                    ################ Sample 83 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  23.0   8.0  396.0  127.0   18.0
+L2 Error %: 0.34
+Cosine Similarity: 0.94
+############################## Composition After Initial Remove ###############################
+         SBS4        SBS5
+0  403.004734  168.995266
+L2 Error %: 0.38
+Cosine Similarity: 0.93
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  22.0  401.0  149.0
+L2 Error %: 0.36
+Cosine Similarity: 0.93
+
+
+
+
+
+                    ################ Sample 84 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2    SBS4  SBS5  SBS13
+0  56.0  41.0  1447.0  87.0   46.0
+L2 Error %: 0.25
+Cosine Similarity: 0.97
+############################## Composition After Initial Remove ###############################
+     SBS4
+0  1677.0
+L2 Error %: 0.3
+Cosine Similarity: 0.95
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.28
+Cosine Similarity 0.96
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.28
+Cosine Similarity 0.96
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.28
+Cosine Similarity 0.96
+####################################### Composition After Add-Remove #######################################
+   SBS1    SBS4   SBS5
+0  54.0  1455.0  168.0
+L2 Error %: 0.28
+Cosine Similarity: 0.96
+
+
+
+
+
+                    ################ Sample 85 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  25.0  62.0  561.0  189.0  104.0
+L2 Error %: 0.24
+Cosine Similarity: 0.97
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4       SBS13
+0  85.798411  724.499383  130.702206
+L2 Error %: 0.3
+Cosine Similarity: 0.95
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 86 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   7.0   8.0  157.0  52.0    8.0
+L2 Error %: 0.42
+Cosine Similarity: 0.91
+############################## Composition After Initial Remove ###############################
+         SBS4       SBS5
+0  158.672506  73.327494
+L2 Error %: 0.46
+Cosine Similarity: 0.89
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.45
+Cosine Similarity 0.89
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.45
+Cosine Similarity 0.89
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.45
+Cosine Similarity 0.89
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   7.0  158.0  67.0
+L2 Error %: 0.45
+Cosine Similarity: 0.89
+
+
+
+
+
+                    ################ Sample 87 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  12.0  11.0  281.0  93.0   13.0
+L2 Error %: 0.34
+Cosine Similarity: 0.94
+############################## Composition After Initial Remove ###############################
+         SBS4        SBS5
+0  283.259346  126.740654
+L2 Error %: 0.38
+Cosine Similarity: 0.92
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.37
+Cosine Similarity 0.93
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.37
+Cosine Similarity 0.93
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.37
+Cosine Similarity 0.93
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  12.0  282.0  116.0
+L2 Error %: 0.37
+Cosine Similarity: 0.93
+
+
+
+
+
+                    ################ Sample 88 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  13.0  14.0  232.0  131.0    1.0
+L2 Error %: 0.44
+Cosine Similarity: 0.9
+############################## Composition After Initial Remove ###############################
+         SBS4        SBS5
+0  228.922803  162.077197
+L2 Error %: 0.47
+Cosine Similarity: 0.88
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.46
+Cosine Similarity 0.89
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.46
+Cosine Similarity 0.89
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.46
+Cosine Similarity 0.89
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  12.0  229.0  150.0
+L2 Error %: 0.46
+Cosine Similarity: 0.89
+
+
+
+
+
+                    ################ Sample 89 #################
+############################# Initial Composition ####################################
+   SBS1  SBS4  SBS5  SBS13
+0  11.0  72.0  45.0    2.0
+L2 Error %: 0.63
+Cosine Similarity: 0.78
+############################## Composition After Initial Remove ###############################
+        SBS4       SBS5
+0  73.286487  56.713513
+L2 Error %: 0.67
+Cosine Similarity: 0.75
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.63
+Cosine Similarity 0.78
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.63
+Cosine Similarity 0.78
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.63
+Cosine Similarity 0.78
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0  11.0  73.0  46.0
+L2 Error %: 0.63
+Cosine Similarity: 0.78
+
+
+
+
+
+                    ################ Sample 90 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  12.0   3.0  145.0  48.0   11.0
+L2 Error %: 0.49
+Cosine Similarity: 0.87
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  219.0
+L2 Error %: 0.58
+Cosine Similarity: 0.81
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.52
+Cosine Similarity 0.86
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.52
+Cosine Similarity 0.86
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.52
+Cosine Similarity 0.86
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0  12.0  149.0  58.0
+L2 Error %: 0.52
+Cosine Similarity: 0.86
+
+
+
+
+
+                    ################ Sample 91 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  29.0  47.0  209.0  85.0   50.0
+L2 Error %: 0.35
+Cosine Similarity: 0.94
+############################## Composition After Initial Remove ###############################
+        SBS1       SBS2        SBS4      SBS13
+0  37.745704  58.144863  264.548816  59.560617
+L2 Error %: 0.38
+Cosine Similarity: 0.93
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 92 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  17.0  30.0  186.0  131.0   23.0
+L2 Error %: 0.4
+Cosine Similarity: 0.92
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4        SBS5
+0  30.360011  192.909112  163.730878
+L2 Error %: 0.46
+Cosine Similarity: 0.89
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.4
+Cosine Similarity 0.92
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % inf
+Cosine Similarity 0.92
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.4
+Cosine Similarity 0.92
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  17.0  30.0  186.0  131.0   23.0
+L2 Error %: 0.4
+Cosine Similarity: 0.92
+
+
+
+
+
+                    ################ Sample 93 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  12.0  13.0  30.0  58.0   13.0
+L2 Error %: 0.54
+Cosine Similarity: 0.84
+############################## Composition After Initial Remove ###############################
+        SBS1      SBS2       SBS5      SBS13
+0  13.232039  14.24197  83.001871  15.524119
+L2 Error %: 0.59
+Cosine Similarity: 0.81
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.59
+Cosine Similarity 0.81
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.59
+Cosine Similarity 0.81
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.59
+Cosine Similarity 0.81
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2  SBS5  SBS13
+0  13.0  14.0  83.0   16.0
+L2 Error %: 0.59
+Cosine Similarity: 0.81
+
+
+
+
+
+                    ################ Sample 94 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  12.0  21.0  156.0  62.0   15.0
+L2 Error %: 0.41
+Cosine Similarity: 0.91
+############################## Composition After Initial Remove ###############################
+      SBS2      SBS4
+0  31.6963  234.3037
+L2 Error %: 0.51
+Cosine Similarity: 0.86
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.41
+Cosine Similarity 0.91
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % inf
+Cosine Similarity 0.91
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.41
+Cosine Similarity 0.91
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  12.0  21.0  156.0  62.0   15.0
+L2 Error %: 0.41
+Cosine Similarity: 0.91
+
+
+
+
+
+                    ################ Sample 95 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  21.0   8.0  240.0  57.0    4.0
+L2 Error %: 0.35
+Cosine Similarity: 0.94
+############################## Composition After Initial Remove ###############################
+        SBS1        SBS4
+0  28.751029  301.248971
+L2 Error %: 0.39
+Cosine Similarity: 0.92
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0  21.0  239.0  70.0
+L2 Error %: 0.36
+Cosine Similarity: 0.93
+
+
+
+
+
+                    ################ Sample 96 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   9.0   6.0  139.0  52.0    3.0
+L2 Error %: 0.47
+Cosine Similarity: 0.88
+############################## Composition After Initial Remove ###############################
+         SBS4       SBS5
+0  138.816971  70.183029
+L2 Error %: 0.49
+Cosine Similarity: 0.87
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.48
+Cosine Similarity 0.88
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.48
+Cosine Similarity 0.88
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.48
+Cosine Similarity 0.88
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   8.0  139.0  62.0
+L2 Error %: 0.48
+Cosine Similarity: 0.88
+
+
+
+
+
+                    ################ Sample 97 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  11.0  78.0  592.0  229.0   52.0
+L2 Error %: 0.3
+Cosine Similarity: 0.95
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4        SBS5
+0  78.199782  611.704687  272.095531
+L2 Error %: 0.34
+Cosine Similarity: 0.94
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.3
+Cosine Similarity 0.95
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % inf
+Cosine Similarity 0.95
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.3
+Cosine Similarity 0.95
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  11.0  78.0  592.0  229.0   52.0
+L2 Error %: 0.3
+Cosine Similarity: 0.95
+
+
+
+
+
+                    ################ Sample 98 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  11.0  34.0  128.0  39.0   60.0
+L2 Error %: 0.36
+Cosine Similarity: 0.93
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4      SBS13
+0  41.451381  159.982236  70.566383
+L2 Error %: 0.39
+Cosine Similarity: 0.92
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 99 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0   5.0  28.0  641.0  209.0   82.0
+L2 Error %: 0.32
+Cosine Similarity: 0.95
+############################## Composition After Initial Remove ###############################
+         SBS4        SBS5      SBS13
+0  633.835231  249.931248  81.233521
+L2 Error %: 0.34
+Cosine Similarity: 0.94
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.32
+Cosine Similarity 0.95
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % inf
+Cosine Similarity 0.95
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.32
+Cosine Similarity 0.95
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0   5.0  28.0  641.0  209.0   82.0
+L2 Error %: 0.32
+Cosine Similarity: 0.95
+
+
+
+
+
+                    ################ Sample 100 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  21.0  22.0  91.0  86.0   23.0
+L2 Error %: 0.51
+Cosine Similarity: 0.86
+############################## Composition After Initial Remove ###############################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  21.0  22.0  91.0  86.0   23.0
+L2 Error %: 0.51
+Cosine Similarity: 0.86
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 101 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  22.0  76.0  70.0  62.0   67.0
+L2 Error %: 0.34
+Cosine Similarity: 0.94
+############################## Composition After Initial Remove ###############################
+        SBS2       SBS4      SBS13
+0  99.692285  110.47432  86.833395
+L2 Error %: 0.4
+Cosine Similarity: 0.92
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 102 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   7.0   5.0  20.0  38.0    2.0
+L2 Error %: 0.72
+Cosine Similarity: 0.7
+############################## Composition After Initial Remove ###############################
+   SBS5
+0  72.0
+L2 Error %: 0.82
+Cosine Similarity: 0.58
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS5']
+L2 Error % 0.79
+Cosine Similarity 0.62
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS5']
+L2 Error % 0.79
+Cosine Similarity 0.62
+
+#################### Final Composition #################################
+['SBS1', 'SBS5']
+L2 Error % 0.79
+Cosine Similarity 0.62
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS5
+0   7.0  65.0
+L2 Error %: 0.79
+Cosine Similarity: 0.62
+
+
+
+
+
+                    ################ Sample 103 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   7.0  85.0  24.0  43.0   93.0
+L2 Error %: 0.24
+Cosine Similarity: 0.97
+############################## Composition After Initial Remove ###############################
+         SBS2       SBS13
+0  120.446154  131.553846
+L2 Error %: 0.27
+Cosine Similarity: 0.96
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.24
+Cosine Similarity 0.97
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.24
+Cosine Similarity 0.97
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.24
+Cosine Similarity 0.97
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2  SBS5  SBS13
+0   6.0  89.0  59.0   98.0
+L2 Error %: 0.24
+Cosine Similarity: 0.97
+
+
+
+
+
+                    ################ Sample 104 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  16.0  15.0  355.0  104.0    9.0
+L2 Error %: 0.34
+Cosine Similarity: 0.94
+############################## Composition After Initial Remove ###############################
+         SBS4        SBS5
+0  354.951438  144.048562
+L2 Error %: 0.38
+Cosine Similarity: 0.93
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.37
+Cosine Similarity 0.93
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.37
+Cosine Similarity 0.93
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.37
+Cosine Similarity 0.93
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  15.0  353.0  131.0
+L2 Error %: 0.37
+Cosine Similarity: 0.93
+
+
+
+
+
+                    ################ Sample 105 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  15.0  33.0  10.0  42.0   44.0
+L2 Error %: 0.33
+Cosine Similarity: 0.94
+############################## Composition After Initial Remove ###############################
+        SBS1       SBS2      SBS13
+0  25.292153  50.949978  67.757869
+L2 Error %: 0.37
+Cosine Similarity: 0.93
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.33
+Cosine Similarity 0.94
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.33
+Cosine Similarity 0.94
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.33
+Cosine Similarity 0.94
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2  SBS5  SBS13
+0  15.0  33.0  50.0   46.0
+L2 Error %: 0.33
+Cosine Similarity: 0.94
+
+
+
+
+
+                    ################ Sample 106 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  20.0   5.0  13.0  43.0   11.0
+L2 Error %: 0.57
+Cosine Similarity: 0.82
+############################## Composition After Initial Remove ###############################
+        SBS1       SBS5      SBS13
+0  20.352526  60.079661  11.567812
+L2 Error %: 0.61
+Cosine Similarity: 0.8
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.59
+Cosine Similarity 0.81
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.59
+Cosine Similarity 0.81
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.59
+Cosine Similarity 0.81
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2  SBS5  SBS13
+0  21.0   5.0  54.0   12.0
+L2 Error %: 0.59
+Cosine Similarity: 0.81
+
+
+
+
+
+                    ################ Sample 107 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2    SBS4   SBS5  SBS13
+0  33.0  30.0  1015.0  283.0   31.0
+L2 Error %: 0.28
+Cosine Similarity: 0.96
+############################## Composition After Initial Remove ###############################
+          SBS4        SBS5
+0  1022.048941  369.951059
+L2 Error %: 0.3
+Cosine Similarity: 0.95
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.3
+Cosine Similarity 0.96
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.3
+Cosine Similarity 0.96
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.3
+Cosine Similarity 0.96
+####################################### Composition After Add-Remove #######################################
+   SBS1    SBS4   SBS5
+0  31.0  1019.0  342.0
+L2 Error %: 0.3
+Cosine Similarity: 0.96
+
+
+
+
+
+                    ################ Sample 108 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  30.0  26.0  904.0  165.0   30.0
+L2 Error %: 0.27
+Cosine Similarity: 0.96
+############################## Composition After Initial Remove ###############################
+     SBS4
+0  1155.0
+L2 Error %: 0.34
+Cosine Similarity: 0.94
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.29
+Cosine Similarity 0.96
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.29
+Cosine Similarity 0.96
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.29
+Cosine Similarity 0.96
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  29.0  908.0  218.0
+L2 Error %: 0.29
+Cosine Similarity: 0.96
+
+
+
+
+
+                    ################ Sample 109 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS5  SBS13
+0  12.0  66.0  12.0   72.0
+L2 Error %: 0.31
+Cosine Similarity: 0.95
+############################## Composition After Initial Remove ###############################
+       SBS2     SBS13
+0  77.11536  84.88464
+L2 Error %: 0.33
+Cosine Similarity: 0.94
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS13']
+L2 Error % 0.31
+Cosine Similarity 0.95
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS13']
+L2 Error % 0.31
+Cosine Similarity 0.95
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS13']
+L2 Error % 0.31
+Cosine Similarity 0.95
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2  SBS13
+0  13.0  71.0   78.0
+L2 Error %: 0.31
+Cosine Similarity: 0.95
+
+
+
+
+
+                    ################ Sample 110 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  19.0   6.0  225.0  58.0    1.0
+L2 Error %: 0.41
+Cosine Similarity: 0.91
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  309.0
+L2 Error %: 0.49
+Cosine Similarity: 0.87
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.42
+Cosine Similarity 0.91
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.42
+Cosine Similarity 0.91
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.42
+Cosine Similarity 0.91
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0  18.0  224.0  67.0
+L2 Error %: 0.42
+Cosine Similarity: 0.91
+
+
+
+
+
+                    ################ Sample 111 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  17.0  19.0  420.0  95.0   20.0
+L2 Error %: 0.36
+Cosine Similarity: 0.93
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  571.0
+L2 Error %: 0.45
+Cosine Similarity: 0.9
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.4
+Cosine Similarity 0.92
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.4
+Cosine Similarity 0.92
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.4
+Cosine Similarity 0.92
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  16.0  421.0  134.0
+L2 Error %: 0.4
+Cosine Similarity: 0.92
+
+
+
+
+
+                    ################ Sample 112 #################
+############################# Initial Composition ####################################
+   SBS1  SBS4  SBS5  SBS13
+0   8.0  95.0  42.0    3.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  148.0
+L2 Error %: 0.6
+Cosine Similarity: 0.8
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.53
+Cosine Similarity 0.85
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.53
+Cosine Similarity 0.85
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.53
+Cosine Similarity 0.85
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0   8.0  96.0  44.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
+
+
+
+
+
+                    ################ Sample 113 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  15.0  15.0  104.0  30.0   34.0
+L2 Error %: 0.47
+Cosine Similarity: 0.88
+############################## Composition After Initial Remove ###############################
+        SBS2       SBS4      SBS13
+0  20.537422  135.75983  41.702749
+L2 Error %: 0.52
+Cosine Similarity: 0.85
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 114 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  12.0   2.0  18.0  14.0    1.0
+L2 Error %: 0.69
+Cosine Similarity: 0.73
+############################## Composition After Initial Remove ###############################
+        SBS1       SBS4
+0  17.819057  29.180943
+L2 Error %: 0.72
+Cosine Similarity: 0.69
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.7
+Cosine Similarity 0.72
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.7
+Cosine Similarity 0.72
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.7
+Cosine Similarity 0.72
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0  12.0  17.0  18.0
+L2 Error %: 0.7
+Cosine Similarity: 0.72
+
+
+
+
+
+                    ################ Sample 115 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   6.0   9.0  59.0  17.0    6.0
+L2 Error %: 0.51
+Cosine Similarity: 0.86
+############################## Composition After Initial Remove ###############################
+        SBS2       SBS4
+0  13.217563  83.782437
+L2 Error %: 0.59
+Cosine Similarity: 0.81
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.51
+Cosine Similarity 0.86
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % inf
+Cosine Similarity 0.86
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.51
+Cosine Similarity 0.86
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0   6.0   9.0  59.0  17.0    6.0
+L2 Error %: 0.51
+Cosine Similarity: 0.86
+
+
+
+
+
+                    ################ Sample 116 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5
+0   2.0   3.0   7.0  18.0
+L2 Error %: 0.79
+Cosine Similarity: 0.61
+############################## Composition After Initial Remove ###############################
+   SBS5
+0  30.0
+L2 Error %: 0.85
+Cosine Similarity: 0.52
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS5']
+L2 Error % 0.84
+Cosine Similarity 0.54
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS5']
+L2 Error % 0.84
+Cosine Similarity 0.54
+
+#################### Final Composition #################################
+['SBS1', 'SBS5']
+L2 Error % 0.84
+Cosine Similarity 0.54
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS5
+0   2.0  28.0
+L2 Error %: 0.84
+Cosine Similarity: 0.54
+
+
+
+
+
+                    ################ Sample 117 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   3.0  34.0  291.0  95.0   43.0
+L2 Error %: 0.29
+Cosine Similarity: 0.96
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4      SBS13
+0  44.638362  368.091529  53.270109
+L2 Error %: 0.33
+Cosine Similarity: 0.94
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 118 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  14.0   6.0  12.0   8.0    7.0
+L2 Error %: 0.64
+Cosine Similarity: 0.77
+############################## Composition After Initial Remove ###############################
+        SBS1       SBS2      SBS13
+0  23.254204  11.488344  12.257452
+L2 Error %: 0.68
+Cosine Similarity: 0.73
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.66
+Cosine Similarity 0.75
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.66
+Cosine Similarity 0.75
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS5', 'SBS13']
+L2 Error % 0.66
+Cosine Similarity 0.75
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2  SBS5  SBS13
+0  15.0   7.0  17.0    8.0
+L2 Error %: 0.66
+Cosine Similarity: 0.75
+
+
+
+
+
+                    ################ Sample 119 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  12.0  16.0  171.0  25.0   17.0
+L2 Error %: 0.41
+Cosine Similarity: 0.91
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4
+0  20.744142  220.255858
+L2 Error %: 0.49
+Cosine Similarity: 0.87
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.41
+Cosine Similarity 0.91
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % inf
+Cosine Similarity 0.91
+
+#################### Final Composition #################################
+['SBS1', 'SBS2', 'SBS4', 'SBS5', 'SBS13']
+L2 Error % 0.41
+Cosine Similarity 0.91
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  12.0  16.0  171.0  25.0   17.0
+L2 Error %: 0.41
+Cosine Similarity: 0.91
+
+
+
+
+
+                    ################ Sample 120 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0   7.0   3.0  378.0  119.0    9.0
+L2 Error %: 0.36
+Cosine Similarity: 0.93
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  516.0
+L2 Error %: 0.41
+Cosine Similarity: 0.91
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0   7.0  380.0  129.0
+L2 Error %: 0.36
+Cosine Similarity: 0.93
+
+
+
+
+
+                    ################ Sample 121 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  18.0   7.0  75.0  64.0    2.0
+L2 Error %: 0.52
+Cosine Similarity: 0.85
+############################## Composition After Initial Remove ###############################
+       SBS1       SBS4       SBS5
+0  17.41309  74.018254  74.568656
+L2 Error %: 0.55
+Cosine Similarity: 0.84
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.55
+Cosine Similarity 0.84
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.55
+Cosine Similarity 0.84
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.55
+Cosine Similarity 0.84
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0  17.0  74.0  75.0
+L2 Error %: 0.55
+Cosine Similarity: 0.84
+
+
+
+
+
+                    ################ Sample 122 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  16.0  56.0  105.0  104.0  100.0
+L2 Error %: 0.28
+Cosine Similarity: 0.96
+############################## Composition After Initial Remove ###############################
+        SBS2        SBS4      SBS13
+0  78.428602  170.467338  132.10406
+L2 Error %: 0.35
+Cosine Similarity: 0.94
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+
+                    ################ Sample 123 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5  SBS13
+0  16.0   4.0  51.0  19.0    6.0
+L2 Error %: 0.63
+Cosine Similarity: 0.78
+############################## Composition After Initial Remove ###############################
+        SBS1       SBS4
+0  21.635363  74.364637
+L2 Error %: 0.68
+Cosine Similarity: 0.74
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.65
+Cosine Similarity 0.76
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.65
+Cosine Similarity 0.76
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.65
+Cosine Similarity 0.76
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0  16.0  53.0  27.0
+L2 Error %: 0.65
+Cosine Similarity: 0.76
+
+
+
+
+
+                    ################ Sample 124 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  14.0  10.0  309.0  61.0    2.0
+L2 Error %: 0.36
+Cosine Similarity: 0.93
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  396.0
+L2 Error %: 0.41
+Cosine Similarity: 0.91
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.37
+Cosine Similarity 0.93
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.37
+Cosine Similarity 0.93
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.37
+Cosine Similarity 0.93
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0  13.0  308.0  75.0
+L2 Error %: 0.37
+Cosine Similarity: 0.93
+
+
+
+
+
+                    ################ Sample 125 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   9.0  10.0  202.0  65.0    6.0
+L2 Error %: 0.45
+Cosine Similarity: 0.89
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  292.0
+L2 Error %: 0.53
+Cosine Similarity: 0.85
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.47
+Cosine Similarity 0.88
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.47
+Cosine Similarity 0.88
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.47
+Cosine Similarity 0.88
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   8.0  202.0  82.0
+L2 Error %: 0.47
+Cosine Similarity: 0.88
+
+
+
+
+
+                    ################ Sample 126 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  16.0  12.0  527.0  84.0    4.0
+L2 Error %: 0.35
+Cosine Similarity: 0.94
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  643.0
+L2 Error %: 0.39
+Cosine Similarity: 0.92
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.36
+Cosine Similarity 0.93
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  15.0  525.0  103.0
+L2 Error %: 0.36
+Cosine Similarity: 0.93
+
+
+
+
+
+                    ################ Sample 127 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0  14.0  14.0  305.0  97.0   13.0
+L2 Error %: 0.35
+Cosine Similarity: 0.94
+############################## Composition After Initial Remove ###############################
+        SBS4       SBS5
+0  308.17927  134.82073
+L2 Error %: 0.39
+Cosine Similarity: 0.92
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.38
+Cosine Similarity 0.92
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.38
+Cosine Similarity 0.92
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.38
+Cosine Similarity 0.92
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0  13.0  307.0  123.0
+L2 Error %: 0.38
+Cosine Similarity: 0.92
+
+
+
+
+
+                    ################ Sample 128 #################
+############################# Initial Composition ####################################
+   SBS2  SBS4  SBS5  SBS13
+0   1.0  13.0  23.0    5.0
+L2 Error %: 0.74
+Cosine Similarity: 0.67
+############################## Composition After Initial Remove ###############################
+   SBS5
+0  42.0
+L2 Error %: 0.84
+Cosine Similarity: 0.54
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS5']
+L2 Error % 0.84
+Cosine Similarity 0.54
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS5']
+L2 Error % 0.84
+Cosine Similarity 0.54
+
+#################### Final Composition #################################
+['SBS5']
+L2 Error % 0.84
+Cosine Similarity 0.54
+####################################### Composition After Add-Remove #######################################
+   SBS5
+0  42.0
+L2 Error %: 0.84
+Cosine Similarity: 0.54
+
+
+
+
+
+                    ################ Sample 129 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4   SBS5  SBS13
+0  10.0   9.0  349.0  116.0   13.0
+L2 Error %: 0.3
+Cosine Similarity: 0.95
+############################## Composition After Initial Remove ###############################
+         SBS4        SBS5
+0  352.745002  144.254998
+L2 Error %: 0.33
+Cosine Similarity: 0.95
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.32
+Cosine Similarity 0.95
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.32
+Cosine Similarity 0.95
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.32
+Cosine Similarity 0.95
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4   SBS5
+0   9.0  352.0  136.0
+L2 Error %: 0.32
+Cosine Similarity: 0.95
+
+
+
+
+
+                    ################ Sample 130 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2  SBS4  SBS5
+0  12.0   2.0  61.0  56.0
+L2 Error %: 0.62
+Cosine Similarity: 0.79
+############################## Composition After Initial Remove ###############################
+        SBS4       SBS5
+0  61.248359  69.751641
+L2 Error %: 0.67
+Cosine Similarity: 0.75
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.62
+Cosine Similarity 0.78
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.62
+Cosine Similarity 0.78
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.62
+Cosine Similarity 0.78
+####################################### Composition After Add-Remove #######################################
+   SBS1  SBS4  SBS5
+0  11.0  62.0  58.0
+L2 Error %: 0.62
+Cosine Similarity: 0.78
+
+
+
+
+
+                    ################ Sample 131 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2    SBS4   SBS5  SBS13
+0  20.0   9.0  1050.0  208.0   11.0
+L2 Error %: 0.26
+Cosine Similarity: 0.97
+############################## Composition After Initial Remove ###############################
+     SBS4
+0  1298.0
+L2 Error %: 0.3
+Cosine Similarity: 0.96
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.26
+Cosine Similarity 0.97
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.26
+Cosine Similarity 0.97
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.26
+Cosine Similarity 0.97
+####################################### Composition After Add-Remove #######################################
+   SBS1    SBS4   SBS5
+0  20.0  1051.0  227.0
+L2 Error %: 0.26
+Cosine Similarity: 0.97
+
+
+
+
+
+                    ################ Sample 132 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS13
+0   9.0   6.0  144.0    4.0
+L2 Error %: 0.48
+Cosine Similarity: 0.88
+############################## Composition After Initial Remove ###############################
+    SBS4
+0  163.0
+L2 Error %: 0.51
+Cosine Similarity: 0.86
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.49
+Cosine Similarity 0.87
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.49
+Cosine Similarity 0.87
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.49
+Cosine Similarity 0.87
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   8.0  145.0  10.0
+L2 Error %: 0.49
+Cosine Similarity: 0.87
+
+
+
+
+
+                    ################ Sample 133 #################
+############################# Initial Composition ####################################
+   SBS1  SBS2   SBS4  SBS5  SBS13
+0   8.0   3.0  126.0  58.0    4.0
+L2 Error %: 0.45
+Cosine Similarity: 0.89
+############################## Composition After Initial Remove ###############################
+         SBS4       SBS5
+0  128.569713  70.430287
+L2 Error %: 0.47
+Cosine Similarity: 0.88
+
+############################## Performing Add-Remove Step ##############################
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 0 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.46
+Cosine Similarity 0.89
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!! LAYER: 1 !!!!!!!!!!!!!!!!!!!!!!!!!
+Best Signature Composition ['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.46
+Cosine Similarity 0.89
+
+#################### Final Composition #################################
+['SBS1', 'SBS4', 'SBS5']
+L2 Error % 0.46
+Cosine Similarity 0.89
+####################################### Composition After Add-Remove #######################################
+   SBS1   SBS4  SBS5
+0   8.0  128.0  63.0
+L2 Error %: 0.46
+Cosine Similarity: 0.89
