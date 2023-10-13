@@ -14,3 +14,6 @@ https://github.com/AlexandrovLab/SigProfilerExtractor
 4. VCF Files for Selected Smokers.
 5. Final Signature Analysis Results.
 
+
+  
+  *Note: The research findings related to the Taiwanese LUAD nonsmokers are progressively concluding. As the manuscript is currently in preparation and has not been published, this repo primarily focuses on the analysis results of TCGA LUAD. (Oct 2023)*
