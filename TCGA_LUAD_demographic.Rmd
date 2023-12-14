@@ -1,0 +1,163 @@
+---
+title: "TCGA_LUAD Demographic Analysis"
+author: "Hsiao-Yu Peng"
+date: "2023-12-14"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(readr)
+library(dplyr)
+library(ggplot2)
+```
+
+
+```{r}
+# Load data
+lung_phe <- read_tsv("~/Desktop/methylation/lung/TCGA-LUAD.GDC_phenotype.tsv")
+
+dim(lung_phe)
+head(lung_phe)
+```
+
+
+## Explore Data Analsyis
+
+### Gender Distribution
+```{r}
+gender_dist <- lung_phe %>% 
+  group_by(gender.demographic) %>% 
+  summarize(number = n())
+
+print(gender_dist)
+
+ggplot(gender_dist, aes(x = gender.demographic, y = number, fill = gender.demographic)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Gender Distribution",
+       x = "Gender",
+       y = "Number") +
+  theme_classic()
+  
+```
+
+
+TCGA_LUAD data set has more female individuals than male. Because we focus on studying female nonsmoker with LUAD, we select female for further investigation.
+
+
+### Smoking History Distribution
+```{r}
+# Select female and gropy by smoking history
+smoking_dist <- lung_phe %>% 
+  filter(gender.demographic == "female") %>% 
+  group_by(tobacco_smoking_history) %>% 
+  summarize(number = n())
+
+print(smoking_dist)
+
+# Create bar plot 
+ggplot(smoking_dist, aes(x = tobacco_smoking_history, y= number, fill = tobacco_smoking_history )) +
+  geom_bar(stat = "identity") +
+  labs(title = "Female Smoking Distribution",
+       x = "Smoking History",
+       y = "Number") + 
+  theme_classic()
+
+```
+
+
+Category "1" of Smoking History means non-smokers, others are smokers. We continue to study race distribution of female nonsmokers and smokers
+
+
+### Race Distribution
+```{r}
+# Select female nonsmokers
+race_dist <- lung_phe %>% 
+  filter(gender.demographic == "female",
+         tobacco_smoking_history == 1) %>% 
+  group_by(race.demographic) %>% 
+  summarize(number = n())
+
+print(race_dist)
+
+ggplot(race_dist, aes(x = race.demographic, y = number, fill = race.demographic)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Race Distribution of Nonsmokers") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+# Select female smokers
+race_dist <- lung_phe %>% 
+  filter(gender.demographic == "female",
+         tobacco_smoking_history != 1) %>% 
+  group_by(race.demographic) %>% 
+  summarize(number = n())
+
+
+print(race_dist)
+
+ggplot(race_dist, aes(x = race.demographic, y = number, fill = race.demographic)) +
+  geom_bar(stat = "identity") +
+  labs(title = "Race Distribution of Smokers") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+
+```
+
+
+We only study race regarding Asian, Black or African American and White. Next step we explore age distribution.
+
+
+### Non-smoker Age Distribution
+```{r}
+# Select female nonsmokers
+nonsmokers_age <- lung_phe %>% 
+  filter(tobacco_smoking_history ==1,
+         gender.demographic == "female",
+         race.demographic %in% c("asian", "black or african american", "white", "not reported")) %>% 
+  select(submitter_id.samples, age_at_index.demographic, gender.demographic, 
+         race.demographic, tobacco_smoking_history) 
+
+# Find non-smokers' age range
+nonsmokers_age %>% 
+  group_by(race.demographic) %>% 
+  summarize(age_range = paste(min(age_at_index.demographic, na.rm = T),
+                              max(age_at_index.demographic, na.rm = T),
+                              sep = " - "),
+            count = n())
+
+
+ggplot(nonsmokers_age, aes(x = race.demographic, y = age_at_index.demographic)) +
+  geom_boxplot() + 
+  geom_jitter(position = position_jitter(width = 0.2, height = 0), alpha = 0.3) +
+  labs(title = "Age Distribution by Race for Smokers")
+
+```
+
+
+### Smokers Age Distribution
+```{r}
+smokers_age <- lung_phe %>% 
+  filter(tobacco_smoking_history !=1,
+         gender.demographic == "female",
+         race.demographic %in% c("asian", "black or african american", "white")) %>% 
+  select(submitter_id.samples, age_at_index.demographic, gender.demographic, 
+         race.demographic, tobacco_smoking_history) 
+
+# Find smokers' age range 
+smokers_age %>% 
+  group_by(race.demographic) %>% 
+  summarize(age_range = paste(min(age_at_index.demographic, na.rm = T),
+                              max(age_at_index.demographic, na.rm = T),
+                              sep = " - "),
+            count = n())
+
+
+ggplot(smokers_age, aes(x = race.demographic, y = age_at_index.demographic)) +
+  geom_boxplot() + 
+  geom_jitter(position = position_jitter(width = 0.2, height = 0), alpha = 0.3) +
+  labs(title = "Age Distribution by Race for Smokers")
+```
