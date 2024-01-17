@@ -20,7 +20,6 @@ fem_noSmoke <- fem_noSmoke %>%
 merged_data <- merge(lung_mut, fem_noSmoke, by = "Sample_ID")
 
 
-# Double check Sample_ID with alternative apporoache below!
 # Obtain the mutate info of female non-smoking participants
 #fem_mutate <- lung_mut %>% 
   #filter(Sample_ID %in% fem_noSmoke$submitter_id.samples)
