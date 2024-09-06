@@ -29,4 +29,4 @@ https://github.com/AlexandrovLab/SigProfilerExtractor
 ## Results
 The mutational signature analysis within TCGA cohort revealed the presence of several distinct signatures. Our findings show that SBS1, SBS2, SBS13, SBS5, SBS4, SBS19, and SBS95 are the predominant mutational signatures within this cohort.
   
-  **Note**: The research findings related to the Taiwanese LUAD nonsmokers are progressively concluding. As the manuscript is currently in preparation and has not been published, this repo primarily focuses on the analysis results of TCGA LUAD.*
+  **Note**: *The research findings related to the Taiwanese LUAD nonsmokers are progressively concluding. As the manuscript is currently in preparation and has not been published, this repo primarily focuses on the analysis results of TCGA LUAD.*
